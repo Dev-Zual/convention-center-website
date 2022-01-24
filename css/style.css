@@ -2,7 +2,78 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+.navbar-nav li a {
+	font-size: 16px;
+	color: #3e3e3e;
+	font-weight: 600;
+}
 .carousel-item img {
 	height: 580px;
 	filter: brightness(50%);
+}
+/* pricing box style */
+.pricing-box {
+	padding: 10px;
+}
+.pricing-box ul {
+	list-style: none;
+	line-height: 30px;
+}
+.pricing-box ul li {
+	font-weight: normal;
+	font-size: 15px;
+	color: #848199;
+	margin-left: -25px;
+}
+.pricing-box h1 {
+	margin: 18px 0px;
+	font-size: 32px;
+	color: #231d4f;
+	font-weight: 600;
+}
+.pricing-box p {
+	color: #848199;
+}
+.pricing-box ul li i {
+	margin-right: 13px;
+	color: #5243c2;
+}
+.box-active {
+	background: #3f87f5;
+	border-radius: 24px;
+	padding: 15px;
+	position: relative;
+}
+.hot {
+	width: 55px;
+	position: absolute;
+	height: 34px;
+	background: red;
+	border-radius: 25px;
+	display: grid;
+	align-content: center;
+	top: -19px;
+	right: 19px;
+}
+.hot h3 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 6px;
+}
+.box-active h1 {
+	color: #fff;
+}
+.box-active p {
+	color: #fff;
+}
+.box-active ul li i {
+	color: #fff;
+}
+.box-active ul li {
+	color: #fff;
+}
+button.btn.btn-light.text-primary.fw-bold.mx-auto.d-grid.px-5 {
+	border-radius: 28px;
 }
