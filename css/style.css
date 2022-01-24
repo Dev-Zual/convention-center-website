@@ -77,3 +77,8 @@ body {
 button.btn.btn-light.text-primary.fw-bold.mx-auto.d-grid.px-5 {
 	border-radius: 28px;
 }
+/* accordion css */
+p.accordion-text {
+	font-size: 16px;
+	color: #7e848c;
+}
