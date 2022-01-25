@@ -160,7 +160,7 @@
                 
                 <div class="col-md-6 col-12 col-sm-12">
                     
-                    <div class="accordion" id="accordionExample">
+                    <div id="column-reverse-acordion" class="accordion order-sm-2 order-md-2" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -219,12 +219,50 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-md-6 col-12 col-sm-12">
+                <div id="column-reverse-md" class="col-md-6 col-12 col-sm-12 order-sm-1 order-md-1">
                     <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
-        
+        <!-- contact us area -->
+        <section id="contact-us" class="container">
+          <h1 class="fw-bold text-center m-5">Contact Us</h1>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Frist Name</label>
+              <input type="email" placeholder="Your Name Here" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Last Name</label>
+              <input type="email" placeholder="Your Name Here" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" placeholder="Your Email Here" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" placeholder="Your Password Here" class="form-control" id="inputPassword4">
+            </div>
+           <div class="col-lg-12 col-md-12">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Type Your Comments</label>
+            </div>
+           </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </section>     
     </main>
     <!-- footer area goes here -->
     <footer class="footer-area py-5 mt-5">
