@@ -86,21 +86,33 @@ p.accordion-text {
 	background: #0b0d17;
 }
 .copyright-text {
-	display: grid;
-	grid-template-columns: 1;
-	align-items: center;
+	margin-top: 74px;
 }
-.copyright-text p {
+.copyright-text h4 {
 	font-size: 14px;
 	color: #d9dbe1;
 }
 .app-store h4 {
 	font-size: 18px;
 	color: #d9dbe1;
-	text-align: end;
+	/* text-align: end; */
 }
-.app-icon {
-	display: grid;
-	justify-content: end;
-	margin-top: 29px;
+
+/**********************
+ coustom media queryes 
+ ************************/
+
+@media screen and (max-width: 576px) {
+	.copyright-text {
+		justify-content: center;
+		margin-top: 0px;
+	}
+	#saml-d-center {
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 768px) {
+	.copyright-text {
+		margin-top: 0px;
+	}
 }
