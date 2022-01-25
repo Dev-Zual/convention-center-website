@@ -107,13 +107,12 @@ p.accordion-text {
  ************************/
 
 @media screen and (max-width: 576px) {
-	/* #column-reverse-acordion {
+	#column-reverse-acordion {
 		order: 2;
-	} */
-	/* #column-reverse-md {
-		display: flex;
+	}
+	#column-reverse-md img {
 		order: 1;
-	} */
+	}
 	.copyright-text {
 		justify-content: center;
 		margin-top: 0px;
@@ -123,12 +122,6 @@ p.accordion-text {
 	}
 }
 @media screen and (max-width: 768px) {
-	/* #column-reverse-md {
-		order: 1;
-	} */
-	/* #column-reverse-acordion {
-		order: 2;
-	} */
 	.copyright-text {
 		margin-top: 0px;
 	}
